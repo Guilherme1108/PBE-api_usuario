@@ -1,9 +1,9 @@
 
 //Simulação de um banco de dados em memória
 let users = [
-    {id:1, name: 'Alice', email: 'alice@gmail.com'},
-    {id:2, name: 'João', email: 'joao@gmail.com'},
-    {id:3, name: 'Thiago', email: 'thiago@gmail.com'}
+    {id:1, name: 'Doflamingo', email: 'doflamingo@gmail.com'},
+    {id:2, name: 'Gardevoar', email: 'gardevoar@gmail.com'},
+    {id:3, name: 'Draco', email: 'malfoy@gmail.com'}
 ];
 
 // Função para buscar todos os usuários
