@@ -12,7 +12,7 @@ const findAll = () => {
 }
 
 // Função para buscar um usuário por id
-const findBy= (id) => {
+const findById = (id) => {
     return users.find(user => user.id === id);
 }
 
@@ -27,6 +27,6 @@ const create = (newUser) => {
 //Exportar as funções
 module.exports = {
     findAll,
-    findBy,
+    findById,
     create
 }

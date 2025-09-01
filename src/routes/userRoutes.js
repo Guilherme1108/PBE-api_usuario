@@ -11,10 +11,10 @@ router.get('/', userController.getAllUsers)
 
 
 // //2° Rota para obter dados  de um usuario por ID
-// router.get('/:id', getuserById)
+router.get('/:id', userController.getUserById)
 
 
 // //3° Rota para criar um novo usuario
-// router.post('/', userController.createUser)
+router.post('/', userController.createUser)
 
 module.exports = router;
